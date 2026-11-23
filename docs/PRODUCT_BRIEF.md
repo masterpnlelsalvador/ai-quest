@@ -47,4 +47,4 @@ A first-time user can (a) launch the web app, (b) finish each of three missions,
 
 ## Deployment stance
 
-The v0.1 source is public at [masterpnlelsalvador/ai-quest](https://github.com/masterpnlelsalvador/ai-quest). Static hosting is a separate deployment step. Do not publish user/private company material. This repository is separate from Agent Gauntlet. Hosting services may keep request logs; public access should not be described as anonymous.
+The v0.1 source is public at [masterpnlelsalvador/ai-quest](https://github.com/masterpnlelsalvador/ai-quest), and the static demo is hosted on [GitHub Pages](https://masterpnlelsalvador.github.io/ai-quest/). Do not publish user/private company material. This repository is separate from Agent Gauntlet. Hosting services may keep request logs; public access should not be described as anonymous.

@@ -1,6 +1,6 @@
 # AI Quest — Brief demonstration
 
-Use the local server instructions in the README. This is a demonstration of a **simulation**, not a participant study.
+Use the [public GitHub Pages demo](https://masterpnlelsalvador.github.io/ai-quest/) or the local server instructions in the README. This is a demonstration of a **simulation**, not a participant study. The host may log normal page requests; use only fictional data.
 
 1. **Problem:** AI work needs judgment about what to share, what context to preserve and what to verify. A good-looking prompt alone does not answer those questions.
 2. **Secret Leak:** open the fictional log. Select the four diagnostic lines, then add the explicitly fake API key and evaluate. Show the critical result. Remove that line, evaluate again and open **Why each line matters**. Point to both an included diagnostic line and an omitted sensitive line. Explain that real internal evidence still needs an approved destination.

@@ -4,6 +4,10 @@ AI Quest is a static browser exercise for practicing decisions around AI use. It
 
 **Status:** source published at [masterpnlelsalvador/ai-quest](https://github.com/masterpnlelsalvador/ai-quest) under the [MIT License](LICENSE), Copyright (c) 2026 Alkyora. This repository contains the static application and its tests; it does not certify a user's skills.
 
+## Try online
+
+Open the [AI Quest demo on GitHub Pages](https://masterpnlelsalvador.github.io/ai-quest/). Scenario selections and Workbench plans remain in the page during use and reset on reload; the application does not automatically upload them. As with any hosted site, normal page requests reach the host and may be logged. Use only the fictional example data.
+
 ## Run locally
 
 You need Python 3 to serve the site. From this directory:

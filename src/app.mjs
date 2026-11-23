@@ -71,7 +71,7 @@ function renderHome() {
 
 function renderMissionsIndex() {
   const p = profileSummary(state.results);
-  return `<section class="page-heading"><p class="eyebrow">Your learning path</p><h1>Choose a mission</h1><p>Each scenario records your decisions in this browser tab only. Refreshing the page resets progress; no information is transmitted.</p></section>
+  return `<section class="page-heading"><p class="eyebrow">Your learning path</p><h1>Scenario decisions stay in this browser tab and reset when you reload. The app does not upload your answers; a web host may still log normal page requests.</p></section>
    <div class="statstrip"><div class="stat"><strong>${p.done}/3</strong><small>Scenarios attempted</small></div><div class="stat"><strong>${p.average == null ? '—' : p.average}</strong><small>Average practice score</small></div></div>
    <div class="grid">${missionMeta.map(m => `<article class="card"><div class="iconbox">${m.icon}</div><span class="step">MISSION ${m.number} · ${escapeHtml(m.category)}</span><h3>${escapeHtml(m.title)}</h3><p>${escapeHtml(m.detail)}</p><div class="mission-card-footer">${state.results[m.id] ? `<span class="chip ${state.results[m.id].passed ? '' : 'warn'}">${state.results[m.id].passed ? 'Passed' : 'Retry'} · ${state.results[m.id].score}/100</span>` : '<span class="small">Ready to practice</span>'}<button type="button" class="button" data-mission="${m.id}">Practice →</button></div></article>`).join('')}</div>
    ${p.complete ? `<div class="card light" style="margin-top:22px"><h3>Training snapshot: ${escapeHtml(p.label)}</h3><p>Practice average: <strong>${p.average}/100</strong>. ${p.critical ? 'A critical safety choice was detected. Review that mission before claiming completion.' : p.allPassed ? 'All three simulated scenarios passed.' : 'Some scenarios need another attempt.'} These results are not a validated competency certification.</p>${ghostBtn('Try again', 'reset-all')}</div>` : ''}`;
@@ -126,7 +126,7 @@ function renderMission(id) {
     efficiency: ['Check the smallest relevant evidence first.', 'Verification should follow investigation.', 'Never take disruptive production action blindly.'],
   };
   return `<button type="button" class="button ghost" data-action="open-missions" style="margin-bottom:20px">← All missions</button>
-  <div class="mission-head"><div><p class="eyebrow">MISSION ${m.number} · ${escapeHtml(m.category)}</p><h2>${escapeHtml(m.title)}</h2><p class="subtle">${escapeHtml(m.competency)} · Deterministic simulated assessment</p></div><span class="chip">Offline scenario</span></div>
+  <div class="mission-head"><div><p class="eyebrow">MISSION ${m.number} · ${escapeHtml(m.category)}</p><h2>${escapeHtml(m.title)}</h2><p class="subtle">${escapeHtml(m.competency)} · Deterministic simulated assessment</p></div><span class="chip">Fictional scenario</span></div>
   <div class="mission-layout"><div class="card">${missionBody}</div><aside class="card sidebar-card"><h3>What matters here?</h3><ul>${hints[id].map(h => `<li>${escapeHtml(h)}</li>`).join('')}</ul><div class="callout"><strong>Important:</strong> This is an educational simulation, not real incident handling, security clearance or a guarantee of competence.</div></aside></div>`;
 }
 
