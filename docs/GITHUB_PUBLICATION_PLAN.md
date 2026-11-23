@@ -1,5 +1,7 @@
 # AQ-07-P3 — Future GitHub publication plan
 
+> Historical pre-publication plan. The repository is now public; for current status, see the [README](../README.md).
+
 This is a proposal only. AQ-07-P3 creates a local Git repository in this candidate, with **no commit, remote, push or deployment**.
 
 | Item | Proposal |

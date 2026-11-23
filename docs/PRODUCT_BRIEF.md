@@ -6,7 +6,7 @@ Many AI training resources evaluate the shape of a prompt without evaluating how
 
 ## Product hypothesis
 
-An interactive browser practice lab plus a practical work-planning tool can help employees learn transferable AI habits and share effective methods. This is a **hypothesis**, not a validated business claim. The local candidate is MIT-licensed but has not been published.
+An interactive browser practice lab plus a practical work-planning tool can help employees learn transferable AI habits and share effective methods. This is a **hypothesis**, not a validated business claim. The source is public under the MIT License.
 
 ## Intended audience
 
@@ -14,7 +14,7 @@ Employees using AI for support, engineering, documentation or business processes
 
 ## Promise
 
-**Learn by doing. Practice your judgment. Share what works after release approval.**
+**Learn by doing. Practice your judgment. Share what works.**
 
 ## Success for v0.1
 
@@ -47,4 +47,4 @@ A first-time user can (a) launch the web app, (b) finish each of three missions,
 
 ## Deployment stance
 
-Local candidate in v0.1. Public release only after manual security/UX review and explicit authorization. Do not publish user/private company material. Separate repository from Agent Gauntlet.
+The v0.1 source is public at [masterpnlelsalvador/ai-quest](https://github.com/masterpnlelsalvador/ai-quest). Static hosting is a separate deployment step. Do not publish user/private company material. This repository is separate from Agent Gauntlet. Hosting services may keep request logs; public access should not be described as anonymous.

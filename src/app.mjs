@@ -44,7 +44,7 @@ function setView(view, mission = null) {
 function renderHome() {
   const p = profileSummary(state.results);
   return `<section class="hero">
-    <p class="eyebrow">Interactive AI literacy · MIT-licensed candidate</p>
+    <p class="eyebrow">Interactive AI literacy · MIT licensed</p>
     <h1>Use AI with <span class="gradient-text">better judgment.</span></h1>
     <p class="lead">Most AI training teaches you what to type. AI Quest teaches you how to make decisions: protect information, manage context, verify results and avoid unnecessary work.</p>
     <div class="actions">${primaryBtn('Start the challenge →', 'start')}${ghostBtn('Open AI Workbench', 'open-workbench')}</div>
@@ -146,9 +146,9 @@ function renderAbout() {
   return `<section class="page-heading"><p class="eyebrow">Our approach</p><h1>Beyond “good prompt / bad prompt”</h1><p>AI Quest teaches practical decision-making: when to use AI, how to work efficiently, which information to protect, what to verify and how to preserve reusable knowledge.</p></section>
   <div class="grid two"><article class="card"><div class="iconbox">⌁</div><h3>How practice is evaluated</h3><p>Each mission uses transparent, deterministic rules. The safety mission treats inclusion of sensitive fields as a critical failure. The context mission checks whether useful handoff elements are selected. The efficiency mission verifies an ordered sequence and simulated budget.</p></article>
   <article class="card"><div class="iconbox">◎</div><h3>What results do not prove</h3><p>Completing three scenarios is not professional certification, a validated AI maturity diagnosis, or evidence of safe performance in production. Scores describe decisions made within these specific exercises only.</p></article>
-  <article class="card"><div class="iconbox">◇</div><h3>Privacy by default</h3><p>All data and calculations live in this page. This version does not send requests to model APIs, collect analytics or store personal information. The example data is fictional.</p></article>
+  <article class="card"><div class="iconbox">◇</div><h3>Privacy by default</h3><p>Scenario data and calculations stay in this page. This version does not send requests to model APIs, collect analytics or store responses automatically. The example data is fictional. A web host or browser may keep request records; do not assume anonymous access.</p></article>
   <article class="card"><div class="iconbox">↗</div><h3>Shareable by design</h3><p>Plain HTML, CSS and JavaScript modules. No build system, backend or paid dependencies. Anyone can fork the code, add missions and publish the static application using GitHub Pages or another static host.</p></article></div>
-  <div class="card light" style="margin-top:20px"><h3>Guiding philosophy</h3><p><strong>Learn by doing. Prove your skills. Share what works.</strong></p><p>This is a prototype starter by Alkyora, derived from practical AI engineering principles. It is separate from Agent Gauntlet and is not yet deployed.</p></div>`;
+  <div class="card light" style="margin-top:20px"><h3>Guiding philosophy</h3><p><strong>Learn by doing. Practice your judgment. Share what works.</strong></p><p>AI Quest is a static browser exercise by Alkyora, derived from practical AI engineering principles. Its source is public under the MIT License on GitHub. It is separate from Agent Gauntlet.</p></div>`;
 }
 
 function render() {

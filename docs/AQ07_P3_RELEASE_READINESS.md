@@ -1,5 +1,7 @@
 # AQ-07-P3 — Local Git and MIT readiness
 
+> Historical pre-publication snapshot. For current status, see the [README](../README.md).
+
 **Result: PASS WITH FINDINGS.** The public candidate is a local Git repository on branch `main`, with **no HEAD commit, no staged files and no remote**. The original project root is not a Git repository. Nothing has been pushed, deployed or published.
 
 ## License and provenance

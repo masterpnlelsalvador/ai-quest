@@ -1,5 +1,7 @@
 # AQ-07-P2 — Local verification of public candidate
 
+> Historical pre-publication verification. For current status, see the [README](../README.md).
+
 **Historical snapshot.** License and Git status changed in AQ-07-P3; use [the current readiness report](AQ07_P3_RELEASE_READINESS.md) for the current candidate.
 
 **Status:** PASS WITH FINDINGS as a local review artifact. No repository, commit, deployment or publication was created.

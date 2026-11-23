@@ -1,5 +1,7 @@
 # AQ-07-P3 — License and provenance review
 
+> Historical pre-publication review. Its approval boundaries describe AQ-07-P3, before the public repository was authorized. For current status, see the [README](../README.md).
+
 **Decision:** Alkyora explicitly approved MIT for this candidate in AQ-07-P3. The original `LICENSE` was copied byte for byte; both copies have SHA-256 `D3A5266C5190058D4DAB5844107A0A22287C1C3DA619B8335E412A1C42FA52C7`. This does not authorize creating a public repository or deploying the site.
 
 The original project's `LICENSE` contains the standard MIT permission, notice-retention and warranty-disclaimer text, with `Copyright (c) 2026 Alkyora`. Its permission and notice language match the [SPDX MIT record](https://spdx.org/licenses/MIT) and the [Open Source Initiative MIT text](https://opensource.org/license/mit). The copyright line states a claimed holder; it does not independently prove authorship or authority to license every file.
