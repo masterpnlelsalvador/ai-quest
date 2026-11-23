@@ -1,0 +1,22 @@
+# Local and generated files
+.DS_Store
+Thumbs.db
+node_modules/
+coverage/
+*.log
+*.tmp
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Private pilot material must never enter this candidate
+/pilot-package/
+/docs/pilot/
+/pilot-data/
+/pilot-results/
+/AIQuestPilotPrivate/
+*.acl
+*.patch
